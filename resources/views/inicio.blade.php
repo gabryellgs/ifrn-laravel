@@ -43,7 +43,7 @@
       <li><a href="#">Processos Seletivos</a></li>
       <li><a href="#">Cursos</a></li>
       <li><a href="#">Campi</a></li>
-      <li><a href="#">Institucional</a></li>
+      <li><a href="{{ route('noticia') }}">Institucional</a></li>
       <li><a href="#">Acesso à Informação</a></li>
       <li><a href="#">Eventos</a></li>
       <li><a href="#">Serviços</a></li>
@@ -65,11 +65,12 @@
       <img src="{{ asset('images/Programa_PartiuIF.png') }}" alt="#Partiu">
       <div class="card-nome">confira o resultado</div>
     </div>
+    <a href="{{ route('noticia2') }}">
     <div class="card">
       <img src="{{ asset('images/pe_de_meia.png') }}" alt="Pé-de-Meia">
       <div class="card-nome">confira os detalhes</div>
     </div>
-
+    </a>
   </section>
   <section class="noticias">
       <div class="section-title-container">
@@ -87,15 +88,15 @@
         </div>
   
         <!-- Notícia 2 -->
-        <div class="noticia-card">
-          <a href="{% url 'noticia02' %}">
-            <img src="{{ asset('images/extensao.png') }}" alt="projeto de extensão">
-          </a>
-          <p class="categoria">Articulação social</p>
-          <h3 class="titulo">Extensão: divulgados resultados de sete editais</h3>
-          <p class="descricao">Seleções definiram iniciativas que promoverão a integração entre o IFRN e a sociedade em 2025<p>
-          <p class="tempo">Há 7 horas, 44 minutos</p>
-        </div>
+         <div class="noticia-card">
+         <img src="{{ asset('images/extensao.png') }}" alt="projeto de extensão">
+         <p class="categoria">Articulação social</p>
+         <h3 class="titulo">Extensão: divulgados resultados de sete editais</h3>
+         <p class="descricao">Seleções definiram iniciativas que promoverão a integração entre o IFRN e a sociedade em 2025</p>
+         <p class="tempo">Há 7 horas, 44 minutos</p>
+         </div>
+
+
   
         <!-- Notícia 3 -->
         <div class="noticia-card">

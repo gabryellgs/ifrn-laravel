@@ -74,7 +74,7 @@
   <footer class="rodape">
     <div class="rodape-container">
       <div class="rodape-logo-contato">
-        <img src="{% static 'img/rodape-ifrn.png' %}" alt="IFRN Logo" class="rodape-logo">
+        <img src="{`{ asset'images/rodape-ifrn.png' }}" alt="IFRN Logo" class="rodape-logo">
         <div class="rodape-texto">
           <h3>Instituto Federal de Educação, Ciência e Tecnologia do Estado do Rio Grande do Norte</h3>
           <p>Rua Dr. Nilo Bezerra Ramalho, 1692, Tirol</p>
